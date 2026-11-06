@@ -1,0 +1,23 @@
+# dependency & build
+node_modules/
+dist/
+dist-prod/
+frontend/_meta/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# runtime
+*.log
+*.pid
+root/app/backend/uploads/*
+root/app/backend/invoices/*
+!root/app/backend/uploads/.gitkeep
+!root/app/backend/invoices/.gitkeep
+
+# rahasia & config lokal
+.env
+*.db-wal
+*.db-shm
+.DS_Store
